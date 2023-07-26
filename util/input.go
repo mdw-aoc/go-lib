@@ -2,8 +2,6 @@ package util
 
 import (
 	"bytes"
-	"log"
-	"os"
 	"path/filepath"
 	"regexp"
 	"runtime"
@@ -11,6 +9,7 @@ import (
 	"strings"
 
 	"github.com/mdwhatcott/advent-of-code-go-lib/parse"
+	"github.com/mdwhatcott/advent-of-code-inputs/inputs"
 )
 
 func InputBytes() []byte {
@@ -25,12 +24,7 @@ func InputBytes() []byte {
 	for strings.Contains(path, "advent-of-code") {
 		path = filepath.Dir(path)
 	}
-	path = filepath.Join(path, "advent-of-code-inputs", year, day) + ".txt"
-	content, err := os.ReadFile(path)
-	if err != nil {
-		log.Panic(err)
-	}
-	return content
+	return inputs.Read(parse.Int(year), parse.Int(day)).Bytes()
 }
 
 func InputInt() int {
