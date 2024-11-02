@@ -3,7 +3,7 @@ package grid
 import (
 	"testing"
 
-	"github.com/mdwhatcott/testing/should"
+	"github.com/mdw-go/testing/should"
 )
 
 func TestPointFixture(t *testing.T) {

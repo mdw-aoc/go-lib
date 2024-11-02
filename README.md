@@ -1,3 +1,3 @@
-# github.com/mdwhatcott/advent-of-code-go-lib
+# github.com/mdw-aoc/go-lib
 
 Some shared libraries for adventofcode.com in Go.

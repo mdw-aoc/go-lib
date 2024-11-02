@@ -1,8 +1,8 @@
-module github.com/mdwhatcott/advent-of-code-go-lib
+module github.com/mdw-aoc/go-lib
 
-go 1.20
+go 1.23
 
 require (
-	github.com/mdwhatcott/advent-of-code-inputs v1.1.0
-	github.com/mdwhatcott/testing v1.2.0
+	github.com/mdw-aoc/inputs/v2 v2.1.0
+	github.com/mdw-go/testing v1.5.0
 )

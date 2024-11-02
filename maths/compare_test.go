@@ -3,7 +3,7 @@ package maths
 import (
 	"testing"
 
-	"github.com/mdwhatcott/testing/should"
+	"github.com/mdw-go/testing/should"
 )
 
 func TestCompareSuite(t *testing.T) {

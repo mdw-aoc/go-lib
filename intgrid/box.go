@@ -1,6 +1,6 @@
 package intgrid
 
-import "github.com/mdwhatcott/advent-of-code-go-lib/maths"
+import "github.com/mdw-aoc/go-lib/maths"
 
 type BoundingBox struct {
 	corner1 Point

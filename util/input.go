@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mdwhatcott/advent-of-code-go-lib/parse"
-	"github.com/mdwhatcott/advent-of-code-inputs/inputs"
+	"github.com/mdw-aoc/go-lib/parse"
+	"github.com/mdw-aoc/inputs/v2/inputs"
 )
 
 func InputBytes() []byte {

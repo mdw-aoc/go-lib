@@ -3,7 +3,7 @@ package util
 import (
 	"testing"
 
-	"github.com/mdwhatcott/testing/should"
+	"github.com/mdw-go/testing/should"
 )
 
 func TestAnagram(t *testing.T) {

@@ -1,7 +1,7 @@
 package util
 
 import (
-	"github.com/mdwhatcott/advent-of-code-go-lib/maths"
+	"github.com/mdw-aoc/go-lib/maths"
 )
 
 type Slice[T maths.Ordered] []T

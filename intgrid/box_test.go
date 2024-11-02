@@ -3,7 +3,7 @@ package intgrid
 import (
 	"testing"
 
-	"github.com/mdwhatcott/testing/should"
+	"github.com/mdw-go/testing/should"
 )
 
 func TestBoxSuite(t *testing.T) {
